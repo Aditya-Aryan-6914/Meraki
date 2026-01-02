@@ -11,7 +11,7 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Rajesh Shinde",
+    name: "Yash Patil",
     role: "President",
     department: "Computer Engineering"
   },
