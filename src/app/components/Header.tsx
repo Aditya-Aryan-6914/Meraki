@@ -18,9 +18,15 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="text-3xl">⚡</div>
+            <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white/5 border border-orange-500/30 overflow-hidden">
+              <img
+                src="/meraki-logo.png"
+                alt="Meraki '26 logo"
+                className="h-full w-full object-contain"
+              />
+            </div>
             <div>
-              <h1 className="text-white font-bold text-2xl tracking-tight">SANSKRUTI</h1>
+              <h1 className="text-white font-bold text-2xl tracking-tight">Meraki '26</h1>
             </div>
           </div>
 

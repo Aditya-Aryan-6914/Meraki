@@ -8,8 +8,14 @@ export function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="text-3xl">⚡</div>
-              <h3 className="text-2xl font-bold tracking-tight">SANSKRUTI</h3>
+              <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white/5 border border-orange-500/30 overflow-hidden">
+                <img
+                  src="/meraki-logo.png"
+                  alt="Meraki '26 logo"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <h3 className="text-2xl font-bold tracking-tight">Meraki '26</h3>
             </div>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
               Reimagining Maratha heritage through contemporary cultural expression. 
@@ -52,7 +58,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm uppercase tracking-widest mb-6 text-gray-400">Contact</h4>
             <ul className="space-y-3 text-gray-400">
-              <li>sanskruti@college.edu</li>
+              <li>meraki@college.edu</li>
               <li>+91 98765 43210</li>
               <li className="leading-relaxed">Main Building<br />2nd Floor</li>
             </ul>
@@ -63,7 +69,7 @@ export function Footer() {
         <div className="border-t border-zinc-800 pt-8 max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <p className="text-gray-500">
-              © 2026 Sanskruti Cultural Committee. All rights reserved.
+              © 2026 Meraki '26 Cultural Committee. All rights reserved.
             </p>
             <div className="flex gap-8">
               <button className="text-gray-500 hover:text-white transition-colors">

@@ -51,7 +51,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-gray-400 uppercase tracking-wider text-sm mb-2">Email</h4>
-                    <p className="text-xl">sanskruti@college.edu</p>
+                    <p className="text-xl">meraki@college.edu</p>
                   </div>
                 </div>
 

@@ -25,11 +25,11 @@ export function Hero() {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-5xl mx-auto">
           <div className="inline-block mb-6 px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full backdrop-blur-sm">
-            <span className="text-orange-400 text-sm uppercase tracking-wider">Cultural Committee 2026</span>
+            <span className="text-orange-400 text-sm uppercase tracking-wider">Meraki '26 Cultural Committee</span>
           </div>
 
           <h1 className="text-6xl md:text-8xl lg:text-9xl text-white mb-8 font-bold tracking-tight">
-            SANSKRUTI
+            Meraki '26
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">

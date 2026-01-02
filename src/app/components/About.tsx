@@ -19,7 +19,7 @@ export function About() {
           {/* Section Header */}
           <div className="mb-20">
             <span className="text-orange-500 text-sm uppercase tracking-widest mb-4 block">Who We Are</span>
-            <h2 className="text-5xl md:text-7xl font-bold mb-6">About Sanskruti</h2>
+            <h2 className="text-5xl md:text-7xl font-bold mb-6">About Meraki '26</h2>
             <div className="w-24 h-1 bg-orange-500"></div>
           </div>
 
@@ -30,7 +30,7 @@ export function About() {
               </p>
               
               <p className="text-lg text-gray-400 leading-relaxed">
-                Sanskruti is where the rich heritage of Maharashtra meets contemporary expression. 
+                Meraki '26 is where the rich heritage of Maharashtra meets contemporary expression. 
                 Through events, workshops, and performances, we create spaces where students can 
                 explore and celebrate cultural identity in ways that resonate with today's world.
               </p>
