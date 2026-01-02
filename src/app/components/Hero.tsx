@@ -1,4 +1,3 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ArrowRight } from 'lucide-react';
 import { NeonIcon } from './NeonIcon';
 
@@ -22,7 +21,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 text-center">
+      <div className="relative z-10 container mx-auto px-6 pb-24 md:pb-32 text-center">
         <div className="max-w-5xl mx-auto">
           <div className="inline-block mb-6 px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full backdrop-blur-sm">
             <span className="text-orange-400 text-sm uppercase tracking-wider">KIT's College of Engineering Presents</span>
