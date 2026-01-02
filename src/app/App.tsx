@@ -18,8 +18,8 @@ export default function App() {
         <Header />
         <main>
           <Hero />
-          <About />
           <Events />
+          <About />
           <Gallery />
           <Team />
           <Contact />

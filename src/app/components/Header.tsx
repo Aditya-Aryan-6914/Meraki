@@ -33,7 +33,7 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-10">
-            {['Home', 'About', 'Events', 'Gallery', 'Team', 'Contact'].map((item) => (
+            {['Home', 'Events', 'About', 'Gallery', 'Team', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -57,7 +57,7 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden pb-6">
             <div className="flex flex-col gap-1">
-              {['Home', 'About', 'Events', 'Gallery', 'Team', 'Contact'].map((item) => (
+              {['Home', 'Events', 'About', 'Gallery', 'Team', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}

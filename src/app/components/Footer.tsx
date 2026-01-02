@@ -43,7 +43,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm uppercase tracking-widest mb-6 text-gray-400">Quick Links</h4>
             <ul className="space-y-3">
-              {['About', 'Events', 'Gallery', 'Team', 'Contact'].map((item) => (
+              {['Events', 'About', 'Gallery', 'Team', 'Contact'].map((item) => (
                 <li key={item}>
                   <button 
                     onClick={() => document.getElementById(item.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })} 
