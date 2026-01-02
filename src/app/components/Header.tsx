@@ -3,6 +3,7 @@ import { Menu, X } from 'lucide-react';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const logoSrc = `${import.meta.env.BASE_URL}meraki-logo.png`;
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -20,7 +21,7 @@ export function Header() {
           <div className="flex items-center gap-3">
             <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white/5 border border-orange-500/30 overflow-hidden">
               <img
-                src="/meraki-logo.png"
+                src={logoSrc}
                 alt="Meraki '26 logo"
                 className="h-full w-full object-contain"
               />

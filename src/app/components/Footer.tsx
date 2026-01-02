@@ -1,6 +1,8 @@
 import { Instagram, Twitter, Youtube, Linkedin } from 'lucide-react';
 
 export function Footer() {
+  const logoSrc = `${import.meta.env.BASE_URL}meraki-logo.png`;
+
   return (
     <footer className="bg-zinc-950 text-white border-t border-zinc-800">
       <div className="container mx-auto px-6 py-16">
@@ -10,7 +12,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-6">
               <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white/5 border border-orange-500/30 overflow-hidden">
                 <img
-                  src="/meraki-logo.png"
+                  src={logoSrc}
                   alt="Meraki '26 logo"
                   className="h-full w-full object-contain"
                 />
