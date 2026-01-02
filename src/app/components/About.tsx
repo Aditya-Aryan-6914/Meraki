@@ -2,6 +2,8 @@ import { ArrowRight } from 'lucide-react';
 import { NeonIcon } from './NeonIcon';
 
 export function About() {
+  const committeeImage = `${import.meta.env.BASE_URL}Committee-Member-group-photo.png`;
+
   return (
     <section id="about" className="py-32 text-white relative overflow-hidden">
       {/* Decorative Neon Icons */}
@@ -43,26 +45,16 @@ export function About() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-6">
-              <div className="space-y-6">
-                <div className="bg-zinc-900/50 backdrop-blur-sm p-8 border border-zinc-800 hover:border-orange-500/50 transition-all">
-                  <div className="text-5xl text-orange-500 mb-4">50+</div>
-                  <p className="text-gray-400 uppercase tracking-wider text-sm">Events Annually</p>
-                </div>
-                <div className="bg-zinc-900/50 backdrop-blur-sm p-8 border border-zinc-800 hover:border-orange-500/50 transition-all">
-                  <div className="text-5xl text-orange-500 mb-4">10+</div>
-                  <p className="text-gray-400 uppercase tracking-wider text-sm">Years Legacy</p>
-                </div>
-              </div>
-              <div className="space-y-6 mt-12">
-                <div className="bg-zinc-900/50 backdrop-blur-sm p-8 border border-zinc-800 hover:border-orange-500/50 transition-all">
-                  <div className="text-5xl text-orange-500 mb-4">500+</div>
-                  <p className="text-gray-400 uppercase tracking-wider text-sm">Active Members</p>
-                </div>
-                <div className="bg-zinc-900/50 backdrop-blur-sm p-8 border border-zinc-800 hover:border-orange-500/50 transition-all">
-                  <div className="text-5xl text-orange-500 mb-4">25+</div>
-                  <p className="text-gray-400 uppercase tracking-wider text-sm">Awards Won</p>
-                </div>
+            <div className="relative bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 hover:border-orange-500/50 transition-all overflow-hidden group aspect-video">
+              <img
+                src={committeeImage}
+                alt="Meraki '26 Cultural Committee"
+                className="w-full h-full object-cover opacity-90 transition duration-700 group-hover:opacity-100"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-70 group-hover:opacity-50 transition duration-700" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <p className="text-orange-400 uppercase tracking-wider text-xs mb-2">Meraki '26 Committee</p>
+                <p className="text-white text-lg">The team crafting every cultural moment.</p>
               </div>
             </div>
           </div>
