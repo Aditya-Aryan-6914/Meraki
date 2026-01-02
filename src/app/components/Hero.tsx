@@ -23,8 +23,8 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 pb-24 md:pb-32 text-center">
         <div className="max-w-5xl mx-auto">
-          <div className="inline-block mb-6 px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full backdrop-blur-sm">
-            <span className="text-orange-400 text-sm uppercase tracking-wider">KIT's College of Engineering Presents</span>
+          <div className="inline-block mb-8 px-6 py-3 bg-gradient-to-r from-orange-500/20 via-orange-500/10 to-orange-500/20 border-2 border-orange-500/50 rounded-full backdrop-blur-md shadow-lg shadow-orange-500/20 animate-pulse" style={{ animationDuration: '3s' }}>
+            <span className="text-orange-300 text-base md:text-lg font-semibold uppercase tracking-widest drop-shadow-[0_0_10px_rgba(251,146,60,0.5)]">KIT's College of Engineering Presents</span>
           </div>
 
           <h1 className="text-6xl md:text-8xl lg:text-9xl text-white mb-8 font-bold tracking-tight">

@@ -45,14 +45,16 @@ export function About() {
               </div>
             </div>
 
-            <div className="relative bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 hover:border-orange-500/50 transition-all overflow-hidden group aspect-video">
-              <img
-                src={committeeImage}
-                alt="Meraki '26 Cultural Committee"
-                className="w-full h-full object-cover opacity-90 transition duration-700 group-hover:opacity-100"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-70 group-hover:opacity-50 transition duration-700" />
-              <div className="absolute bottom-0 left-0 right-0 p-6">
+            <div className="relative bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 hover:border-orange-500/50 transition-all overflow-hidden group rounded-lg">
+              <div className="relative w-full" style={{ minHeight: '400px' }}>
+                <img
+                  src={committeeImage}
+                  alt="Meraki '26 Cultural Committee"
+                  className="w-full h-full object-contain opacity-90 transition duration-700 group-hover:opacity-100"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60 group-hover:opacity-40 transition duration-700 pointer-events-none" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 to-transparent">
                 <p className="text-orange-400 uppercase tracking-wider text-xs mb-2">Meraki '26 Committee</p>
                 <p className="text-white text-lg">The team crafting every cultural moment.</p>
               </div>
