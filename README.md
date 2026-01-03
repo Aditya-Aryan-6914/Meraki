@@ -1,7 +1,8 @@
 
   # Cultural Committee Website
+  https://adityaaryan.me/Meraki/
 
-  Sanskruti cultural committee landing page built with Vite + React + Tailwind v4.
+  Meraki '26 cultural committee landing page built with Vite + React + Tailwind v4.
 
   ## Local development
   - Install dependencies: `npm install`
